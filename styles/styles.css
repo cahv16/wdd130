@@ -66,13 +66,12 @@ footer {
 
 main img {
     float: right;
-    
 }
 
 aside h2 {
     position: absolute;
-    top: 320px;
-    left: 730px;   
+    top: -280px;
+    left: 715px;   
 }
 
 /* Class Selectors */
