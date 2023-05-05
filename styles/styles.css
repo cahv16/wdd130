@@ -37,6 +37,7 @@ main {
 
 aside {
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -54,8 +55,6 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-
-/*Class selectors*/
 
 .box {
     margin: 1rem;
@@ -75,3 +74,5 @@ aside h2 {
     top: 320px;
     left: 730px;   
 }
+
+/*Class selectors*/
