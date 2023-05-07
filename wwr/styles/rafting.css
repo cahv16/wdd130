@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur:ital@1&family=Lora&display=swap');
+
+:root {
+    --primary-color: #3E7CB1;
+    --secondary-color: #CBA135;
+    --accent1-color: #000000;
+    --accent2-color: #FBFBFB;
+    
+    --heading-font: 'Fruktur', cursive;
+    --paragraph-font: 'Lora Regular 400', serif;
+
+    --nav-background-color:#3E7CB1;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #000000;
+    --nav-hover-background-color: #CBA135;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+}
+
+
+
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: auto;
+    padding: 20px;
+}
+
+
+header {
+    padding: 10px;
+    background-color: var(--accent2-color);
+    link
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+section img {
+    width: 20;
+    height: auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: -75px;
+}
+
+article {
+    position: absolute;
+    top: -px;
+}
+
+article img {
+    float: right;
+}
