@@ -27,6 +27,8 @@ h1 {
 
 .blue-border {
     border-bottom: steelblue;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }
 
 img {
