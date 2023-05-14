@@ -31,7 +31,7 @@ p {
 
 body {
     font-family: var(--paragraph-font);
-    max-width: auto;
+    max-width: 100%;
     padding: 20px;
 }
 
