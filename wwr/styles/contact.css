@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
+
+:root {
+    --primary-color: #3E7CB1;
+    --secondary-color: #CBA135;
+    --accent1-color: #000000;
+    --accent2-color: #FBFBFB;
+    
+    --heading-font: Roboto, sans-serif;
+    --paragraph-font: 'Lora Regular 400', serif;
+
+    --nav-background-color:#3E7CB1;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #000000;
+    --nav-hover-background-color: #CBA135;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+}
+
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 100%;
+    padding: 20px;
+}
+
+
+header {
+    padding: 10px;
+    background-color: var(--accent2-color);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 300px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid black;
+    max-width: 1000px;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    flex: 1 1 100%;
+}
+
+.logo{
+    margin: 0 0.25rem 0 1rem;
+    width: 200px;
+    height: auto;
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+.company-information{
+    border-style:groove;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: left;
+
+}
+
+.happy-employees img {
+    width: 0%;
+    height: 0%;
+    float: right;
+   /* margin: 0% 5% 0% 1%;*/
+}
+
+.happy-employees figcaption {
+    font: bold;
+}
+
+
+
+/* .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+ */
+
+
+h1 {
+    /*position: absolute;*/
+    top: 10px;
+}
+
+article {
+    /*position: absolute;*/
+    top: -px;
+}
+
+
+
+.footer-display {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width:100%;
+}
+
+.history, .five-images{
+    display: flex;
+    flex-direction: column;
+}
+
+.history h2, .five-images h2{
+    text-align: center;
+}
+
+.history div, .five-images div{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.history div img {
+    height: 20rem;
+    width: auto;
+}
+
+.five-images figure {
+    margin: 5px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.five-images figure figcaption {
+    text-align: center;
+}
+
+.five-images figure img {
+    height: 119px;
+    width: auto;
+}
+
+footer {
+    background-color: var(--primary-color);
+    margin-top: 20px;
+    height: 80px;
+}
+
+/*.sociallinks {
+    text-align:right;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(20, 120, 20);
+}
+
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+
+label {
+    text-align: left;
+}
