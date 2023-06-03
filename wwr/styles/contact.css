@@ -268,3 +268,35 @@ button:hover {
 label {
     text-align: left;
 }
+
+iframe {
+    position: absolute;
+    top: 253px;
+    left: 56%;
+    width: 36%;
+    /* height: auto; */
+}
+
+section.company-information {
+    height: 494px;
+}
+
+section.team {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+section.team figure img {
+    height: auto;
+    width: 378px;
+}
+
+.footer-display {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+    padding-left: 20%;
+    justify-content: space-evenly;
+}
