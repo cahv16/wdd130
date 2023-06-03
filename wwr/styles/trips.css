@@ -167,11 +167,20 @@ article img {
     float:right;
 }
 
-.footer-display {
+/*.footer-display {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     width:100%;
+}*/
+
+.footer-display {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+    padding-left: 20%;
+    justify-content: space-evenly;
 }
 
 .trips {
@@ -210,11 +219,11 @@ article img {
     width: auto;
 }
 
-footer {
+/*footer {
     background-color: var(--primary-color);
     margin-top: 20px;
     height: 80px;
-}
+}*/
 
 /*.sociallinks {
     text-align:right;
