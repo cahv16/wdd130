@@ -198,7 +198,7 @@ article img {
     text-align: center;
 }
 
-.tripsimgs{
+.trips-imgs{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
