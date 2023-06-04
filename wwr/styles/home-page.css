@@ -83,91 +83,135 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-section img {
-    width: 20px;
-    height: auto;
+
+.heading-image {
+    width: 100%;
+    height: 50rem;
+    margin: 0% 5% 0% 1%;
 }
 
 
 h1 {
-    /*position: absolute;*/
+    margin-top: 10%;
     top: 10px;
 }
 
-article {
-    /*position: absolute;*/
-    top: -px;
-}
 
-article img {
-    float:right;
-}
-
-
-.trips {
-    display: flex;
-    flex-direction: column;
-    margin: 10%;
-    width: 69%;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    background-color: #e9f4f8;
+    padding: 20px;
+  }
+  
+  .image-container-1 {
+    background-color: rgb(243, 203, 25);
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
     text-align: center;
-    border: solid steelblue;
-    background-color: rgb(54, 49, 33);
-}
-
-.trips figure img {
-    width: 100%;
-}
-
-.trips figure {
-    text-align: center;
-}
-
-.trips-imgs{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.five-images figure {
-    margin: 5px;
-    margin-block-end: 0;
-    margin-block-start: 0;
-}
-
-figcaption {
-    text-align: center;
-    color: rgb(197, 248, 248);
-}
-
-.five-images figure img {
-    height: 119px;
-    width: auto;
-}
-
-
-table, th, td {
-    border:1px solid black;
+    border-radius: 10.5px;
   }
 
-.booktrip{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 69%;
-    margin: auto;
-    margin-top: 4%;
-}
+  .image-container-1 img {
+    max-width: 80%;
+    height: auto;
+    padding-top: 10rem;
+  }
 
-
-.schedule {
-    margin: auto;
-    width: 69%;
+  .image-container-2 {
+    background-color: rgb(95, 95, 67);
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
     text-align: center;
-    margin: 10%;
+    border-radius: 10.5px;
+  }
+  
+  .image-container-2 img {
+    max-width: 60%;
+    height: auto;
+    padding-top: 3rem;
+  }
+  
+  form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
 }
 
-.booktrip button {
-     margin-left: 5%; 
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+
+button {
+    margin: 1rem;
+    background-color: rgb(171, 171, 211);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 50%;
+    ;
+}
+
+button:hover {
+    background-color: rgb(47, 48, 47);
+}
+
+.button, .heading, .trips {
+    text-align: center;
+}
+
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+
+label {
+    text-align: left;
+}
+
+.trips {
+    padding: 6rem;
+}
+
+.form-heading {
+    text-align: center;
+    margin-top: 10%;
 }
 
 footer {

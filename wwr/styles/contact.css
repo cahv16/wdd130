@@ -126,13 +126,6 @@ article {
 
 
 
-.footer-display {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    width:100%;
-}
-
 .history, .five-images{
     display: flex;
     flex-direction: column;
@@ -168,11 +161,7 @@ article {
     width: auto;
 }
 
-footer {
-    background-color: var(--primary-color);
-    margin-top: 20px;
-    height: 80px;
-}
+
 
 /*.sociallinks {
     text-align:right;
@@ -291,6 +280,14 @@ section.team figure img {
     height: auto;
     width: 378px;
 }
+
+footer {
+    background-color: var(--primary-color);
+    margin-top: 20px;
+    height: 80px;
+}
+
+
 
 .footer-display {
     display: flex;
