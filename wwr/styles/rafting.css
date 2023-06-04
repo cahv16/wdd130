@@ -20,6 +20,12 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--secondary-color);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 p {
     font-family: var(--paragraph-font);
     color: var(--accent1-color);
@@ -37,12 +43,13 @@ body {
 header {
     padding: 10px;
     background-color: var(--accent2-color);
-    margin: 1rem auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 300px 1fr 2fr;
     align-items: center;
     border-bottom: 1px solid black;
     max-width: 1000px;
+    width: 650px;
 }
 
 .navigation {
